@@ -1,0 +1,211 @@
+.navv {
+    margin: 5px;
+    padding: 10px;
+    background-image: linear-gradient(0, 0, 0, 0.6);
+
+}
+
+.fbtn {
+    background-color: transparent;
+    border: 2px white;
+    border-radius: 5px;
+    padding: 10px;
+
+
+}
+
+.fbtn:hover {
+    background-color: rgb(236, 100, 8);
+    color: rgb(255, 255, 255);
+}
+
+.firstp {
+     transition-delay: 12s;
+    background-image: url("/image/city.jpeg");
+    background-size: cover;
+    height: 700px;
+
+}
+
+.text {
+    text-align: center;
+    padding: 250px;
+    color: white;
+}
+
+.org {
+    color: aliceblue;
+    background-color: rgb(236, 100, 8);
+    border-radius: 5px;
+    border: rgb(236, 100, 8);
+    padding: 10px;
+}
+
+.org:hover {
+    background-color: rgb(187, 118, 39);
+    border: rgb(255, 3, 3);
+}
+
+.about {
+    padding: 30px 0px;
+}
+
+.image {
+    border-radius: 20px;
+}
+
+.colll {
+    background-color: rgb(221, 207, 207);
+    padding: 30px 0;
+}
+
+.boxx {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 2px 100px rgb(184, 147, 79);
+
+}
+
+.fservice {
+    padding: 40px;
+    transition-delay: 5s;
+}
+
+.fservice h3 {
+    border-right: 1pt chocolate;
+
+}
+
+.servicecol {
+    text-align: center;
+    transition: .6s;
+
+}
+
+.servicelogo {
+    padding: 20px;
+    background-color: rgb(148, 143, 143);
+
+}
+
+.logocol {
+      font-size: xx-small;
+    opacity: 0.5px;
+}
+
+
+.servicecolumnsecound {
+    border: 2px;
+    padding: 40px;
+    display: flex;
+}
+
+.servicecolumnsecoundbox {
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+
+}
+
+.servicecolumnsecoundbox ul{
+    padding: 20px;
+    display: flex;
+}
+
+.servicecolumnsecoundbox:hover {
+    background-color: rgb(241, 236, 236);
+    border: rgb(17, 12, 12);
+    border: 2px solid orange;
+}
+
+.servicecolumnsecoundbox i{
+    font-size: 50px;
+    
+}
+.servicecolumnsecoundbox i:hover{
+    
+    color: orange;
+}
+
+.servicepagetwo {
+    padding: 40px;
+}
+
+
+.service-section{
+background-color: #e4dada;
+}
+.service-section h4{
+    font-size: 20px
+    
+}
+
+.hell {
+    padding: 20px ;
+}
+
+.boderhov {
+    border-radius: 2px;
+    background-color: rgb(243, 231, 231);
+    padding: 10px;
+}
+
+
+.boderhov:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+border: 2px solid red;
+    
+
+}
+
+.servicefont {
+    color: orange;
+}
+
+
+.team {
+    padding: 40px;
+}
+
+.contact {
+    padding: 40px;
+
+}
+.contactinfo{
+    text-align: center;
+}
+.contactinfocol{
+    width: 500px;
+}
+
+.contactbtn{
+    color: aliceblue;
+    background-color: rgb(236, 100, 8);
+    border-radius: 5px;
+    border: rgb(236, 100, 8);
+    width: 250px;
+    text-align: center;
+    
+}
+.contactbtn:hover{
+    background-color: rgb(187, 118, 39);
+    border: rgb(255, 3, 3);
+}
+
+
+.lastcontain{
+    background-color: rgb(0, 0, 0);
+    color: white
+}
+.subscribbtn:hover{
+    background-color: rgb(189, 95, 28);
+   
+    border: red;
+}
+
+.lastcontact{
+    text-align: center;
+}
