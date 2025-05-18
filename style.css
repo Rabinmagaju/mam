@@ -20,7 +20,7 @@
 }
 
 .firstp {
-     transition-delay: 12s;
+
     background-image: url("/image/city.jpeg");
     background-size: cover;
     height: 700px;
@@ -47,8 +47,13 @@
 }
 
 .about {
-    padding: 30px 0px;
+    padding: 50px;
+   
 }
+.about col{
+    
+}
+
 
 .image {
     border-radius: 20px;
@@ -81,18 +86,34 @@
 .servicecol {
     text-align: center;
     transition: .6s;
+    padding-bottom: 50px;
+    
 
+}
+.servicecol:hover{
+    transform: translatey(-8px);
+     
+}
+.servicecol i h5:hover{
+    color: orangered;
+}
+
+.card-body{
+   
 }
 
 .servicelogo {
     padding: 20px;
-    background-color: rgb(148, 143, 143);
+    background-color: rgb(226, 221, 221);
 
 }
 
 .logocol {
-      font-size: xx-small;
-    opacity: 0.5px;
+    padding: 20px 50px;
+    filter: grayscale(100);
+}
+.logocol:hover{
+    filter: grayscale(0);
 }
 
 
@@ -101,15 +122,23 @@
     padding: 40px;
     display: flex;
 }
+.servicecolumnsecoundul{
+    display: flex;
+    padding: 20px 50px;
+    height: 130px;
+}
 
 .servicecolumnsecoundbox {
-    border: 2px solid black;
+    display: flex;
+    border: .6px solid black;
     text-align: center;
-    background-color: rgb(255, 115, 0);
+    background-color:orangered;
+    padding: 10px;
+    
 
 }
 
-.servicecolumnsecoundbox ul{
+.servicecolumnsecoundbox ul {
     padding: 20px;
     display: flex;
 }
@@ -120,12 +149,13 @@
     border: 2px solid orange;
 }
 
-.servicecolumnsecoundbox i{
+.servicecolumnsecoundbox i {
     font-size: 50px;
-    
+
 }
-.servicecolumnsecoundbox i:hover{
-    
+
+.servicecolumnsecoundbox i:hover {
+
     color: orange;
 }
 
@@ -134,16 +164,17 @@
 }
 
 
-.service-section{
-background-color: #e4dada;
+.service-section {
+    background-color: #e4dada;
 }
-.service-section h4{
+
+.service-section h4 {
     font-size: 20px
-    
+
 }
 
 .hell {
-    padding: 20px ;
+    padding: 20px;
 }
 
 .boderhov {
@@ -153,11 +184,11 @@ background-color: #e4dada;
 }
 
 
-.boderhov:hover{
+.boderhov:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-border: 2px solid red;
-    
+    border: 2px solid red;
+
 
 }
 
@@ -169,43 +200,75 @@ border: 2px solid red;
 .team {
     padding: 40px;
 }
+.cardlink:hover{
+    color: orangered;
+
+}
+
+.contactfull{
+    height: 800px;
+}
 
 .contact {
-    padding: 40px;
+    padding: 100px ;
+}
+
+.contactrowone{
+    box-shadow: 2px 2px 50px rgb(185, 175, 156);
+    padding-bottom: 50px;
+     padding: 30px;
+     height: 200px;
+     border-radius: 5px;
+}
+.contactrowtwo-col{
+     box-shadow: 2px 2px 50px rgb(185, 175, 156);
+    padding-bottom: 50px;
+     padding: 30px;
+     height: 200px;
+     border-radius: 5px;
 
 }
-.contactinfo{
+
+.contractinfo {
+    
     text-align: center;
-}
-.contactinfocol{
-    width: 500px;
+   
+    height: 350px;
 }
 
-.contactbtn{
+.contact-font{
+    color: orangered;
+    font-size: 30px;
+    border: 2px;
+}
+
+.contactbtn {
     color: aliceblue;
     background-color: rgb(236, 100, 8);
     border-radius: 5px;
     border: rgb(236, 100, 8);
     width: 250px;
     text-align: center;
-    
+
 }
-.contactbtn:hover{
+
+.contactbtn:hover {
     background-color: rgb(187, 118, 39);
     border: rgb(255, 3, 3);
 }
 
 
-.lastcontain{
+.lastcontain {
     background-color: rgb(0, 0, 0);
     color: white
 }
-.subscribbtn:hover{
+
+.subscribbtn:hover {
     background-color: rgb(189, 95, 28);
-   
+
     border: red;
 }
 
-.lastcontact{
+.lastcontact {
     text-align: center;
 }
