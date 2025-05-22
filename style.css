@@ -48,11 +48,10 @@
 
 .about {
     padding: 50px;
-   
+
 }
-.about col{
-    
-}
+
+.about col {}
 
 
 .image {
@@ -75,7 +74,29 @@
 
 .fservice {
     padding: 40px;
-    transition-delay: 5s;
+
+}
+
+.section-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.section-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+}
+
+.short-underline {
+    width: 90px;
+    /* adjust as needed */
+    height: 2px;
+    background-color: #c1440e;
+    /* match your brand color */
 }
 
 .fservice h3 {
@@ -87,20 +108,20 @@
     text-align: center;
     transition: .6s;
     padding-bottom: 50px;
-    
+
 
 }
-.servicecol:hover{
+
+.servicecol:hover {
     transform: translatey(-8px);
-     
+
 }
-.servicecol i h5:hover{
+
+.servicecol i h5:hover {
     color: orangered;
 }
 
-.card-body{
-   
-}
+.card-body {}
 
 .servicelogo {
     padding: 20px;
@@ -112,7 +133,8 @@
     padding: 20px 50px;
     filter: grayscale(100);
 }
-.logocol:hover{
+
+.logocol:hover {
     filter: grayscale(0);
 }
 
@@ -122,7 +144,8 @@
     padding: 40px;
     display: flex;
 }
-.servicecolumnsecoundul{
+
+.servicecolumnsecoundul {
     display: flex;
     padding: 20px 50px;
     height: 130px;
@@ -132,9 +155,9 @@
     display: flex;
     border: .6px solid black;
     text-align: center;
-    background-color:orangered;
+    background-color: orangered;
     padding: 10px;
-    
+
 
 }
 
@@ -168,9 +191,30 @@
     background-color: #e4dada;
 }
 
+.section-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.section-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+}
+
+.short-underline {
+    width: 90px;
+    /* adjust as needed */
+    height: 2px;
+    background-color: #c1440e;
+    /* match your brand color */
+}
+
 .service-section h4 {
     font-size: 20px
-
 }
 
 .hell {
@@ -193,50 +237,63 @@
 }
 
 .servicefont {
-    color: orange;
+    color: orangered;
 }
 
 
 .team {
-    padding: 40px;
+    padding: 20px;
+    background-color: #d6d4d4;
 }
-.cardlink:hover{
+
+.cardlink:hover {
     color: orangered;
 
 }
 
-.contactfull{
+
+.contactfull {
     height: 800px;
 }
 
 .contact {
-    padding: 100px ;
+    padding: 100px;
 }
 
-.contactrowone{
+.contactrowone {
     box-shadow: 2px 2px 50px rgb(185, 175, 156);
     padding-bottom: 50px;
-     padding: 30px;
-     height: 200px;
-     border-radius: 5px;
+    padding: 30px;
+    height: 200px;
+    border-radius: 5px;
 }
-.contactrowtwo-col{
-     box-shadow: 2px 2px 50px rgb(185, 175, 156);
+
+.contactrowtwo-col {
+    box-shadow: 2px 2px 50px rgb(185, 175, 156);
     padding-bottom: 50px;
-     padding: 30px;
-     height: 200px;
-     border-radius: 5px;
+    padding: 30px;
+    height: 200px;
+    border-radius: 5px;
 
 }
 
 .contractinfo {
-    
     text-align: center;
-   
     height: 350px;
 }
 
-.contact-font{
+.contactinfocol {
+    padding: 50px;
+    box-shadow: 2px 2px 50px rgb(185, 175, 156);
+    border-radius: 5px;
+}
+
+.namebox {
+    width: 100px;
+    height: 10000px;
+}
+
+.contact-font {
     color: orangered;
     font-size: 30px;
     border: 2px;
@@ -245,22 +302,27 @@
 .contactbtn {
     color: aliceblue;
     background-color: rgb(236, 100, 8);
-    border-radius: 5px;
+    border-radius: 10px;
     border: rgb(236, 100, 8);
     width: 250px;
-    text-align: center;
+    height: 50px;
+
+
 
 }
 
 .contactbtn:hover {
-    background-color: rgb(187, 118, 39);
+    background-color: orangered;
     border: rgb(255, 3, 3);
+    opacity: .6;
 }
 
 
 .lastcontain {
     background-color: rgb(0, 0, 0);
-    color: white
+    color: white;
+    padding: 30px;
+
 }
 
 .subscribbtn:hover {
