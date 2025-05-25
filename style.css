@@ -51,9 +51,6 @@
 
 }
 
-.about col {}
-
-
 .image {
     border-radius: 20px;
 }
@@ -93,10 +90,9 @@
 
 .short-underline {
     width: 90px;
-    /* adjust as needed */
     height: 2px;
     background-color: #c1440e;
-    /* match your brand color */
+   
 }
 
 .fservice h3 {
@@ -120,8 +116,6 @@
 .servicecol i h5:hover {
     color: orangered;
 }
-
-.card-body {}
 
 .servicelogo {
     padding: 20px;
@@ -306,8 +300,6 @@
     border: rgb(236, 100, 8);
     width: 250px;
     height: 50px;
-
-
 
 }
 
